@@ -1,0 +1,287 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-width: 1170px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1030px;
+}
+
+/*Первый блок*/
+
+.heading {
+  min-height: 96px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading__nav-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.heading__logo {
+  margin-right: 45px;
+}
+
+.navigation__link {
+  text-decoration: none;
+  font-family: Gotham Pro Bold;
+  font-size: 12px;
+  line-height: 11px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-right: 35px;
+}
+
+.search-form__input {
+    height: 20px;
+    width: 185px;
+    border-bottom: 1px solid #000000;
+    background-color: #ffffff;
+    display: flex;
+    margin-right: 35px;
+}
+.search-form__text {
+  font-family: Gotham Pro Regular;
+  border: none;
+  outline: none; 
+  -webkit-appearance: none; 
+  width: 316px;
+  vertical-align: middle;
+  color: #6c6c6c;
+  font-size: 14px;
+}
+
+.search-form__submit {
+  padding-right: 14px;
+  width: 14px;
+  height: 14px;
+  border: none;
+  background: url(../icons/search.png) no-repeat 50% 50%;
+}
+
+.heading__extras {
+  display: flex;
+  align-items: center;
+}
+
+.heading__signin {
+  text-decoration: none;
+  font-family: Gotham Pro Bold;
+  color: #000000;
+  font-size: 12px;
+  line-height: 11px;
+  text-transform: uppercase;
+  margin-right: 35px;
+}
+
+.heading__cart-wrapper {
+  display: flex;
+  align-items: center;
+  margin-right: 35px;
+}
+
+.heading__cart-link {
+  text-decoration: none;
+  font-family: Gotham Pro Bold;
+  color: #000000;
+  font-size: 12px;
+  line-height: 11px;
+  text-transform: uppercase;
+  margin-right: 4px;
+}
+
+.heading__cart-img {
+  height: 15px;
+}
+
+.heading__flag {
+  width: 20px;
+}
+
+/*Второй блок*/
+
+.main__wrapper {
+  height: 280px;
+  background: url(../img/banner-bg.png);
+  margin-bottom: 54px;
+}
+
+.main__text-wrapper{
+  padding-top: 91px;
+  padding-left: 60px;
+  max-width: 195px;
+}
+
+.main__header {
+  font-family: Gotham Pro Bold;
+  font-size: 30px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-bottom: 15px;
+}
+
+.main__link {
+  position: relative;
+  text-decoration: none;
+  font-family: Gotham Pro Bold;
+  font-size: 12px;
+  line-height: 11px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.main__link::after {
+  display: block;
+  content: '';
+  position: absolute;
+  left: 78px;
+  bottom: 2px;
+  background: url('../icons/arrow.png');
+  width: 45px;
+  height: 8px;
+}
+
+.main__subheader {
+  font-family: Gotham Pro Bold;
+  font-size: 22px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.main__card-wrapper{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 26px;
+}
+
+.product-card {
+  position: relative;
+  max-width: 230px;
+}
+
+.product-card::after {
+  display: block;
+  content: '';
+  position: absolute;
+  left: 215px;
+  bottom: 84px;
+  width: 1px;
+  height: 100px;
+  opacity: 0.2;
+  background: #000000;
+}
+
+.product-card:last-child::after{
+  display: none;
+}
+
+.product-card__img {
+  padding-bottom: 23px;
+}
+
+.product-card__discr {
+  font-family: Gotham Pro Regular;
+  font-size: 12px;
+  line-height: 11px;
+  color: #000000;
+  text-align: left;
+  padding-bottom: 5px;
+}
+
+.product-card__options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-card__price {
+  font-family: Gotham Pro Bold;
+  font-size: 14px;
+  line-height: 13px;
+  color: #000000;
+}
+
+.product-card__sel {
+  width: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.product-card__btn {
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  border: none;
+}
+
+.product-card__btn_selected {
+  height: 9px;
+  width: 9px;
+}
+
+.product-card__btn_grey {
+  background: #c4c4c4;
+}
+
+.product-card__btn_blue {
+  background: #41479B;
+}
+
+.product-card__btn_red {
+  background: #b62e3c;
+}
+
+.product-card__btn_yellow {
+  background: #fdb431;
+}
+
+.product-card__btn_brown {
+  background: #762E31;
+}
+
+.product-card__btn_orange {
+  background: #e29d69;
+}
+
+.product-card__btn_black {
+  background: #2c2c2c;  
+}
+
+/*Медиа запросы*/
+
+@media (max-width: 1024px) {
+  body {
+  min-width: 1024px;
+  }
+
+  .container {
+    max-width: 930px;
+  }
+
+  .heading__logo {
+    margin-right: 29px;
+  }
+  .search-form__input {
+    margin-right: 32px;
+  }
+  .heading__signin {
+    margin-right: 25px;
+  }
+
+  .heading__cart-wrapper {
+    margin-right: 27px;
+  }
+}
