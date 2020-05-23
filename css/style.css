@@ -140,7 +140,7 @@ body {
   font-size: 12px;
   line-height: 11px;
   text-transform: uppercase;
-  color: #FFF;
+  color: #fff;
 }
 
 .main__link::after {
@@ -183,7 +183,7 @@ body {
   bottom: 84px;
   width: 1px;
   height: 100px;
-  opacity: 0.2;
+  opacity: .2;
   background: #000;
 }
 
@@ -241,7 +241,7 @@ body {
 }
 
 .product-card__btn_blue {
-  background: #41479B;
+  background: #41479b;
 }
 
 .product-card__btn_red {
@@ -253,7 +253,7 @@ body {
 }
 
 .product-card__btn_brown {
-  background: #762E31;
+  background: #762e31;
 }
 
 .product-card__btn_orange {
@@ -269,7 +269,7 @@ body {
 @media (max-width: 1024px) {
 
   body {
-  min-width: 1024px;
+    min-width: 1024px;
   }
 
   .container {
@@ -321,7 +321,7 @@ body {
     display: block;
     height: 9px;
     width: 60px;
-    background-color: #000000;
+    background-color: #000;
     margin-bottom: 2px;
     transition: 0.5s all;
   }
@@ -384,7 +384,7 @@ body {
     min-width: 230px;
   }
 
-  .product-card:nth-child(3) ,
+  .product-card:nth-child(3),
   .product-card:nth-child(4) {
     display: none;
   }
