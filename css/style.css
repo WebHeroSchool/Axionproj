@@ -133,8 +133,8 @@ body {
 
 .heading__cart-link:active {
   color: #fff;
-  -webkit-text-stroke: 1px rgba(0,0,0,0.5);
-  -webkit-text-fill-color: rgba(0,0,0,0.1);
+  -webkit-text-stroke: 1px rgba(0, 0, 0, .5);
+  -webkit-text-fill-color: rgba(0, 0, 0, .1);
 }
 
 .heading__cart-img {
