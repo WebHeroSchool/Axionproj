@@ -416,7 +416,6 @@ body {
 }
 
 @media (max-width: 375px) {
-
   body {
     min-width: 375px;
   }
@@ -451,7 +450,7 @@ body {
     background: url(../img/banner-bg-mobile.png);
   }
 
-  .main__text-wrapper{
+  .main__text-wrapper {
     padding-top: 62px;
     padding-left: 48px;
     max-width: 206px;
@@ -482,7 +481,7 @@ body {
     margin-bottom: 13px;
   }
 
-  .main__card-wrapper{
+  .main__card-wrapper {
     padding: 0 46px;
   }
 
