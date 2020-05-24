@@ -6,6 +6,7 @@
 
 body {
   min-width: 1170px;
+  margin-top: 12px;
 }
 
 .container {
@@ -522,6 +523,10 @@ body {
 }
 
 @media (max-width: 320px) {
+  body {
+    min-width: 320px;
+  }
+
   .heading__hamburger-wrapper {
     padding: 24px 20px;
   }
