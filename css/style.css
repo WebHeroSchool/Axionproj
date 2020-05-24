@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: Gotham Pro;
 }
 
 body {
@@ -32,7 +33,7 @@ body {
 
 .navigation__link {
   text-decoration: none;
-  font-family: Gotham Pro Bold, sans-serif;
+  font-weight: 700;
   font-size: 12px;
   line-height: 11px;
   text-transform: uppercase;
@@ -54,7 +55,7 @@ body {
 }
 
 .search-form__text {
-  font-family: Gotham Pro Regular, sans-serif;
+  font-weight: 400;
   border: none;
   outline: none;
   width: 316px;
@@ -78,7 +79,7 @@ body {
 
 .heading__signin {
   text-decoration: none;
-  font-family: Gotham Pro Bold, sans-serif;
+  font-weight: 700;
   color: #000;
   font-size: 12px;
   line-height: 11px;
@@ -94,7 +95,7 @@ body {
 
 .heading__cart-link {
   text-decoration: none;
-  font-family: Gotham Pro Bold, sans-serif;
+  font-weight: 700;
   color: #000;
   font-size: 12px;
   line-height: 11px;
@@ -125,7 +126,7 @@ body {
 }
 
 .main__header {
-  font-family: Gotham Pro Bold, sans-serif;
+  font-weight: 700;
   font-size: 30px;
   line-height: 29px;
   text-transform: uppercase;
@@ -136,7 +137,7 @@ body {
 .main__link {
   position: relative;
   text-decoration: none;
-  font-family: Gotham Pro Bold, sans-serif;
+  font-weight: 700;
   font-size: 12px;
   line-height: 11px;
   text-transform: uppercase;
@@ -155,7 +156,7 @@ body {
 }
 
 .main__subheader {
-  font-family: Gotham Pro Bold, sans-serif;
+  font-weight: 700;
   font-size: 22px;
   line-height: 21px;
   text-transform: uppercase;
@@ -196,7 +197,7 @@ body {
 }
 
 .product-card__discr {
-  font-family: Gotham Pro Regular, sans-serif;
+  font-weight: 400;
   font-size: 12px;
   line-height: 11px;
   color: #000;
@@ -211,7 +212,7 @@ body {
 }
 
 .product-card__price {
-  font-family: Gotham Pro Bold, sans-serif;
+  font-weight: 700;
   font-size: 14px;
   line-height: 13px;
   color: #000;
