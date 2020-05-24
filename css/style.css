@@ -262,7 +262,7 @@ body {
 }
 
 .product-card__btn_black {
-  background: #2c2c2c;  
+  background: #2c2c2c;
 }
 
 /* Медиа запросы */
@@ -298,7 +298,6 @@ body {
 }
 
 @media (max-width: 768px) {
-
   body {
     min-width: 768px;
   }
@@ -339,7 +338,7 @@ body {
     background: url(../img/banner-bg-min.png);
   }
 
-  .main__text-wrapper{
+  .main__text-wrapper {
     padding-top: 112px;
     padding-left: 44px;
     max-width: 356px;
@@ -370,7 +369,7 @@ body {
     margin-bottom: 20px;
   }
 
-  .main__card-wrapper{
+  .main__card-wrapper {
     padding: 0 70px;
   }
 
@@ -543,5 +542,4 @@ body {
   .product-card {
     min-width: 330px;
   }
-
 }
