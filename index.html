@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1.0, width=device-width">
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Axion</title>
@@ -9,7 +10,7 @@
 <body>
   <header class="container heading">
     <div class="heading__nav-wrapper">
-      <img src="icons/axion-logo-1.png" alt="logo" class="heading__logo">
+      <img src="icons/axion-logo.png" alt="logo" class="heading__logo">
       <nav class="navigation">
         <a href="#" class="navigation__link">Shop</a>
         <a href="#" class="navigation__link">News</a>
@@ -17,6 +18,13 @@
         <a href="#" class="navigation__link">Legacy</a>
         <a href="#" class="navigation__link">HELP</a>
       </nav>
+    </div>
+    <div class="heading__hamburger-wrapper">
+      <img src="icons/Axion-logo-2.png" alt="logo" class="heading__hamburger-logo">
+      <div class="heading__hamburger">
+        <span class="heading__menu-line"></span>
+        <span class="heading__menu-line"></span>
+      </div>
     </div>
     <div class="heading__extras">
       <form class="search-form" action="#">
@@ -33,63 +41,68 @@
       <img class="heading__flag" src="icons/flag.png" alt="flag">
     </div>
   </header>
-
+  
   <main>
     <section class="container main">
       <div class="main__wrapper">
-        <h1 class="main__header">Legendary footwear reborn.</h1>
-        <a href="#" class="main__link">Shop now</a>
+        <div class="main__text-wrapper">
+          <h1 class="main__header">Legendary footwear reborn.</h1>
+          <a href="#" class="main__link">Shop now
+          </a>
+        </div>
       </div>
       <h2 class="main__subheader">Featured product</h2>
-      <div class="product-card">
-        <img src="img/Product-card1.png" alt="product1" class="product-card__img">
-        <div class="product-card__discr">Atlas Black/Rasta Axion</div>
-        <div class="product-card__options">
-          <div class="product-card__price">$89.00</div>
-          <div class="product-card__sel">
-            <button class="product-card__btn product-card__btn_grey"></button>
-            <button class="product-card__btn product-card__btn_black product-card__btn_selected"></button>
-            <button class="product-card__btn product-card__btn_red"></button>
-            <button class="product-card__btn product-card__btn_yellow"></button>
+      <div class="main__card-wrapper">
+        <div class="product-card">
+          <img src="img/Product-card1.png" alt="product1" class="product-card__img">
+          <div class="product-card__discr">Atlas Black/Rasta Axion</div>
+          <div class="product-card__options">
+            <div class="product-card__price">$89.00</div>
+            <div class="product-card__sel">
+              <button class="product-card__btn product-card__btn_grey"></button>
+              <button class="product-card__btn product-card__btn_black product-card__btn_selected"></button>
+              <button class="product-card__btn product-card__btn_red"></button>
+              <button class="product-card__btn product-card__btn_yellow"></button>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="product-card">
-        <img src="img/Product-card2.png" alt="product2" class="product-card__img">
-        <div class="product-card__discr">Camel/Chili Pepper Axion</div>
-        <div class="product-card__options">
-          <div class="product-card__price">$74.00</div>
-          <div class="product-card__sel">
-            <button class="product-card__btn product-card__btn_grey"></button>
-            <button class="product-card__btn product-card__btn_orange product-card__btn_selected"></button>
-            <button class="product-card__btn product-card__btn_red"></button>
-            <button class="product-card__btn product-card__btn_yellow"></button>
+        <div class="product-card">
+          <img src="img/Product-card2.png" alt="product2" class="product-card__img">
+          <div class="product-card__discr">Camel/Chili Pepper Axion</div>
+          <div class="product-card__options">
+            <div class="product-card__price">$74.00</div>
+            <div class="product-card__sel">
+              <button class="product-card__btn product-card__btn_grey"></button>
+              <button class="product-card__btn product-card__btn_orange product-card__btn_selected"></button>
+              <button class="product-card__btn product-card__btn_red"></button>
+              <button class="product-card__btn product-card__btn_yellow"></button>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="product-card">
-        <img src="img/Product-card3.png" alt="product3" class="product-card__img">
-        <div class="product-card__discr">Mandel Smoke/Rust Axion</div>
-        <div class="product-card__options">
-          <div class="product-card__price">$69.00</div>
-          <div class="product-card__sel">
-            <button class="product-card__btn product-card__btn_grey"></button>
-            <button class="product-card__btn product-card__btn_brown product-card__btn_selected"></button>
-            <button class="product-card__btn product-card__btn_blue"></button>
-            <button class="product-card__btn product-card__btn_yellow"></button>
+        <div class="product-card">
+          <img src="img/Product-card3.png" alt="product3" class="product-card__img">
+          <div class="product-card__discr">Mandel Smoke/Rust Axion</div>
+          <div class="product-card__options">
+            <div class="product-card__price">$69.00</div>
+            <div class="product-card__sel">
+              <button class="product-card__btn product-card__btn_grey"></button>
+              <button class="product-card__btn product-card__btn_brown product-card__btn_selected"></button>
+              <button class="product-card__btn product-card__btn_blue"></button>
+              <button class="product-card__btn product-card__btn_yellow"></button>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="product-card">  
-        <img src="img/Product-card4.png" alt="product4" class="product-card__img">
-        <div class="product-card__discr">Cloud/Electric Blue Axion</div>
-        <div class="product-card__options">
-          <div class="product-card__price">$69.00</div>
-          <div class="product-card__sel">
-            <button class="product-card__btn product-card__btn_grey"></button>
-            <button class="product-card__btn product-card__btn_blue product-card__btn_selected"></button>
-            <button class="product-card__btn product-card__btn_red"></button>
-            <button class="product-card__btn product-card__btn_yellow"></button>
+        <div class="product-card">  
+          <img src="img/Product-card4.png" alt="product4" class="product-card__img">
+          <div class="product-card__discr">Cloud/Electric Blue Axion</div>
+          <div class="product-card__options">
+            <div class="product-card__price">$69.00</div>
+            <div class="product-card__sel">
+              <button class="product-card__btn product-card__btn_grey"></button>
+              <button class="product-card__btn product-card__btn_blue product-card__btn_selected"></button>
+              <button class="product-card__btn product-card__btn_red"></button>
+              <button class="product-card__btn product-card__btn_yellow"></button>
+            </div>
           </div>
         </div>
       </div>
