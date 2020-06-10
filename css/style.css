@@ -372,7 +372,7 @@ body {
   position: absolute;
   left: 16px;
   bottom: 15px;
-  background: url('../icons/Rectangle.png');
+  background: url('../icons/rectangle.png');
   width: 16px;
   height: 16px;
 }
@@ -1000,7 +1000,7 @@ body {
   .main__link::after {
     left: 130px;
     bottom: 3px;
-    background: url(../icons/Arrow-big.png);
+    background: url(../icons/arrow-big.png);
     width: 73px;
     height: 16px;
   }
@@ -1080,7 +1080,7 @@ body {
     flex-direction: column-reverse;
     min-width: 768px;
     margin-bottom: 0;
-    background: linear-gradient(2.6deg, #000 95.3%, #fff 95%);
+    background: linear-gradient(2.6deg, #000 94.3%, #fff 95%);
   }
 
   .video__header {
@@ -1479,7 +1479,7 @@ body {
   .video__btn::before {
     left: 8px;
     bottom: 7px;
-    background: url(../icons/Rectangle-375.png);
+    background: url(../icons/rectangle-375.png);
     width: 5px;
     height: 5px;
   }
