@@ -1000,7 +1000,7 @@ body {
   .main__link::after {
     left: 130px;
     bottom: 3px;
-    background: url(../icons/arrow-big.png);
+    background: url('../icons/arrow-big.png');
     width: 73px;
     height: 16px;
   }
@@ -1184,7 +1184,7 @@ body {
   .stories-card__link::after {
     left: 153px;
     bottom: 0;
-    background: url(../icons/arrow-768.png);
+    background: url('../icons/arrow-768.png');
     width: 49px;
     height: 15px;
   }
@@ -1366,7 +1366,7 @@ body {
   .main__link::after {
     left: 77px;
     bottom: 1px;
-    background: url(../icons/arrow.png);
+    background: url('../icons/arrow.png');
     width: 44px;
     height: 8px;
   }
@@ -1539,7 +1539,7 @@ body {
   .stories-card__link::after {
     left: 97px;
     bottom: 0;
-    background: url(../icons/arrow-375.png);
+    background: url('../icons/arrow-375.png');
     width: 39px;
     height: 10px;
   }
