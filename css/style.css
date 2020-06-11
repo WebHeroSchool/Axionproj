@@ -967,13 +967,13 @@ body {
     transition: .5s all;
   }
 
-  .heading__hamburger:hover span:nth-child(1) {
+/*  .heading__hamburger:hover span:nth-child(1) {
     transform: translateY(16px) rotate(-45deg);
   }
 
   .heading__hamburger:hover span:nth-child(2) {
     transform: translateY(1px) rotate(45deg);
-  }
+  }*/
 
   .main__wrapper {
     height: 415px;
@@ -1332,13 +1332,13 @@ body {
     width: 41px;
   }
 
-  .heading__hamburger:hover span:nth-child(1) {
+/*  .heading__hamburger:hover span:nth-child(1) {
     transform: translateY(13px) rotate(-45deg);
   }
 
   .heading__hamburger:hover span:nth-child(2) {
     transform: translateY(2px) rotate(45deg);
-  }
+  }*/
 
   .main__wrapper {
     height: 191px;
